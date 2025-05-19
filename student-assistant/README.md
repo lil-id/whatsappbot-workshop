@@ -1,4 +1,4 @@
-# 🤖 Bot Asisten Mahasiswa - WhatsApp Bot with whatsapp-web.js
+# 🤖 Bot Asisten Mahasiswa
 
 Bot WhatsApp sederhana untuk membantu mahasiswa mendapatkan informasi cepat seperti jadwal kuliah, info dosen, dan deadline tugas, menggunakan library [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js).
 
@@ -47,7 +47,7 @@ npm install
 
 ### 3. Jalankan bot
 ```bash
-npm start
+npm run dev
 ```
 
 Bot akan menampilkan QR code di terminal. Scan QR tersebut dengan WhatsApp Web untuk login.
@@ -60,10 +60,15 @@ Perintah
 
 Response
 ```bash
-📅 Jadwal Minggu Ini:
-- Senin: PBO - 10:00
-- Rabu: Jaringan Komputer - 13:00
-- Jumat: AI Dasar - 08:00
+Jadwal Mata Kuliah:
+
+# ID: 1
+📖 Matkul: Pemrograman Berorientasi Objek
+🗓 Hari: Senin
+👤 Dosen: Bu Rina
+⏰ Mulai: 08:00
+📯 Selesai: 10:00
+🏛 Ruangan: A101
 ```
 
 Perintah
@@ -73,22 +78,24 @@ Perintah
 Response
 
 ```bash
-👨‍🏫 Dosen Pengampu:
-- Bu Rina (PBO) - rina@univ.ac.id
-- Pak Budi (JK) - budi@univ.ac.id
+Dosen Pengampu:
+
+# ID: 1
+👤 Dosen: Bu Rina
+🎖 NIP: 2234567890
+📧 Email: rina@univ.ac.id
+📖 Matkul: PBO
 ```
 
 ## 📌 Catatan
 Bot ini menggunakan whatsapp-web.js yang membutuhkan sesi aktif WhatsApp Web.
 
-Kamu bisa menambahkan command baru di folder src/commands.
+Kamu bisa menambahkan command baru di folder `src/commands`.
 
 ## 🔗 Referensi
-[whatsapp-web.js Documentation](https://docs.wwebjs.dev)
-
-[Node.js](https://nodejs.org/en)
-
-[qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
+- [whatsapp-web.js Documentation](https://docs.wwebjs.dev)
+- [Node.js](https://nodejs.org/en)
+- [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
 
 ## 👨‍💻 Kontribusi
 Pull request & feedback sangat diterima.
