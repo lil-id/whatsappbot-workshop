@@ -1,0 +1,97 @@
+{
+    "dosen": [
+        {
+            "id": 1,
+            "nama": "Bu Rina",
+            "nip": "2234567890",
+            "email": "rina@univ.ac.id",
+            "matkul": "PBO"
+        },
+        {
+            "id": 2,
+            "nama": "Pak Budi",
+            "nip": "2334567890",
+            "email": "budi@univ.ac.id",
+            "matkul": "JK"
+        },
+        {
+            "id": 3,
+            "nama": "Pak Ahmad",
+            "nip": "2434567890",
+            "email": "ahmad@univ.ac.id",
+            "matkul": "AI"
+        }
+    ],
+    "mata_kuliah": [
+        {
+            "id": 1,
+            "kode": "PBO101",
+            "nama": "Pemrograman Berorientasi Objek",
+            "sks": 3
+        },
+        {
+            "id": 2,
+            "kode": "JK102",
+            "nama": "Jaringan Komputer",
+            "sks": 3
+        },
+        {
+            "id": 3,
+            "kode": "AI103",
+            "nama": "Kecerdasan Buatan",
+            "sks": 3
+        }
+    ],
+    "jadwal": [
+        {
+            "id": 1,
+            "dosen_id": 1,
+            "matkul_id": 1,
+            "hari": "Senin",
+            "jam_mulai": "08:00",
+            "jam_selesai": "10:00",
+            "ruangan": "A101"
+        },
+        {
+            "id": 2,
+            "dosen_id": 2,
+            "matkul_id": 2,
+            "hari": "Selasa",
+            "jam_mulai": "10:00",
+            "jam_selesai": "12:00",
+            "ruangan": "B202"
+        },
+        {
+            "id": 3,
+            "dosen_id": 3,
+            "matkul_id": 3,
+            "hari": "Rabu",
+            "jam_mulai": "13:00",
+            "jam_selesai": "15:00",
+            "ruangan": "C303"
+        }
+    ],
+    "tugas": [
+        {
+            "id": 1,
+            "dosen_id": 1,
+            "judul": "Tugas PBO",
+            "deskripsi": "Buat aplikasi sederhana menggunakan Java",
+            "deadline": "2023-10-15"
+        },
+        {
+            "id": 2,
+            "dosen_id": 2,
+            "judul": "Tugas JK",
+            "deskripsi": "Baca buku dan buat ringkasan",
+            "deadline": "2023-10-20"
+        },
+        {
+            "id": 3,
+            "dosen_id": 3,
+            "judul": "Tugas AI",
+            "deskripsi": "Implementasi algoritma machine learning",
+            "deadline": "2023-10-25"
+        }
+    ]
+}
