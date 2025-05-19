@@ -27,7 +27,6 @@ student-assistant/
 │   │   ├── tugas.js
 │   │   └── help.js
 │   └── index.js         # Entry point bot
-├── session.json         # File sesi login (otomatis terbuat)
 ├── package.json
 └── README.md
 ```
