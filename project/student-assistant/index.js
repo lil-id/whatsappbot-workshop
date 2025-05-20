@@ -4,6 +4,7 @@ const { dosen } = require("./src/commands/dosen");
 const { jadwal } = require("./src/commands/jadwal");
 const { help } = require("./src/commands/help");
 const { tugas } = require("./src/commands/tugas");
+const { quotes } = require("./src/commands/quotes");
 
 // This is the path to the session data file
 const client = new Client({
@@ -18,6 +19,7 @@ const listCommands = {
 	"!dosen": dosen,
 	"!tugas": tugas,
 	"!help": help,
+	"!quote": quotes,
 }
 
 // This will be displayed in the terminal

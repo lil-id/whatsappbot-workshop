@@ -8,6 +8,7 @@ const help = async (client, message) => {
     helpMessage += "`!dosen`- Info dosen pengampu\n";
     helpMessage += "`!tugas` - Deadline tugas yang akan datang\n";
     helpMessage += "`!help` - Daftar perintah yang tersedia\n";
+    helpMessage += "`!quote` - Dapatkan quotes hari ini\n";
 
     message.reply(helpMessage);
 }
