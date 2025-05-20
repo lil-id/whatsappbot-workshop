@@ -50,7 +50,7 @@ npm install
 npm run dev
 ```
 
-Bot akan menampilkan QR code di terminal. Scan QR tersebut dengan WhatsApp Web untuk login.
+Bot akan menampilkan QR code di terminal. Scan QR tersebut dengan WhatsApp App untuk login.
 
 ## 💬 Contoh Penggunaan
 Perintah
